@@ -37,6 +37,8 @@
 
 G_LOCK_DEFINE_STATIC (aliases);
 
+extern gchar * g_win32_getlocale();
+
 static GHashTable *
 get_alias_hash (void)
 {
